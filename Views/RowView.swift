@@ -14,6 +14,8 @@ struct RowView: View {
     var body: some View {
         VStack(alignment: .center, spacing: 8){
             Text("\(self.rowModel.label): \(self.getFormattedPercentage())% correct")
+                .foregroundStyle(.tint)
+                .tint(.accentColor)
 
             HStack(alignment: .center, spacing: 12) {
                 Spacer()

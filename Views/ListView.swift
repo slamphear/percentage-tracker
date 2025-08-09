@@ -35,7 +35,7 @@ struct ListView: View {
             "Enter a label",
             isPresented: self.$isCreatingNewRow,
             actions: {
-                TextField("New row title", text: self.$newRowTitle)
+                TextField("", text: self.$newRowTitle)
 
                 Button(
                     "Accept",
@@ -55,7 +55,7 @@ struct ListView: View {
                 )
             }
         ) {
-            Text("Please enter a label for the new row")
+            Text("Enter a label for the new row")
         }
     }
     

@@ -35,6 +35,11 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		A34DFAAA2E47DF0100C6FC9C /* Views */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Views;
+			sourceTree = "<group>";
+		};
 		A3CB3A522E46EA7200701BE5 /* PercentageTracker */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = PercentageTracker;
@@ -81,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				A34DFA8D2E47D2A000C6FC9C /* Models */,
+				A34DFAAA2E47DF0100C6FC9C /* Views */,
 				A3CB3A522E46EA7200701BE5 /* PercentageTracker */,
 				A3CB3A612E46EA7500701BE5 /* PercentageTrackerTests */,
 				A3CB3A6B2E46EA7500701BE5 /* PercentageTrackerUITests */,
@@ -115,6 +121,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				A34DFA8D2E47D2A000C6FC9C /* Models */,
+				A34DFAAA2E47DF0100C6FC9C /* Views */,
 				A3CB3A522E46EA7200701BE5 /* PercentageTracker */,
 			);
 			name = PercentageTracker;

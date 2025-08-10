@@ -1,8 +1,6 @@
 # percentage-tracker
-Multiplatform Swift app for tracking percentages of correct/incorrect occurrences. Primarily intended for use in speech therapy.
+Native iOS app for tracking percentages of correct/incorrect occurrences. Primarily intended for use in speech therapy, but could be useful more generally. Written entirely in Swift, using SwiftUI.
 
-<img width="1179" height="2556" alt="image" src="https://github.com/user-attachments/assets/0924a4f2-13d1-475c-8f21-26c19af82df6" />
+<img width="1290" height="2796" alt="IMG_5619" src="https://github.com/user-attachments/assets/485f5a65-6c57-4e8f-9880-9101b1729b36" />
 
-<img width="1179" height="2556" alt="image" src="https://github.com/user-attachments/assets/c5cae84b-210e-468f-8997-40f340bd6ad9" />
-
-<img width="1179" height="2556" alt="image" src="https://github.com/user-attachments/assets/0ad73388-6b1a-4c68-b5fe-972f2d570762" />
+<img width="1290" height="2796" alt="IMG_5620" src="https://github.com/user-attachments/assets/21409137-5d51-4c11-bdd4-f50243e09aca" />

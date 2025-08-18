@@ -12,7 +12,11 @@ struct ContentView: View {
     
     var body: some View {
         NavigationView {
-            ListView()
+            ListView(
+                listModel: .init(
+                    rows: []
+                )
+            )
         }
     }
 }

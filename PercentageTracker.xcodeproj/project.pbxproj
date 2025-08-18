@@ -40,6 +40,11 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		A3811D982E52AC4600AF1851 /* Utils */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		A3CB3A522E46EA7200701BE5 /* PercentageTracker */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = PercentageTracker;
@@ -86,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				A34DFA8D2E47D2A000C6FC9C /* Models */,
+				A3811D982E52AC4600AF1851 /* Utils */,
 				A34DFAAA2E47DF0100C6FC9C /* Views */,
 				A3CB3A522E46EA7200701BE5 /* PercentageTracker */,
 				A3CB3A612E46EA7500701BE5 /* PercentageTrackerTests */,
@@ -122,6 +128,7 @@
 			fileSystemSynchronizedGroups = (
 				A34DFA8D2E47D2A000C6FC9C /* Models */,
 				A34DFAAA2E47DF0100C6FC9C /* Views */,
+				A3811D982E52AC4600AF1851 /* Utils */,
 				A3CB3A522E46EA7200701BE5 /* PercentageTracker */,
 			);
 			name = PercentageTracker;
@@ -430,11 +437,11 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator xros xrsimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TARGETED_DEVICE_FAMILY = 1;
 				XROS_DEPLOYMENT_TARGET = 2.5;
 			};
 			name = Debug;
@@ -470,11 +477,11 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator xros xrsimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TARGETED_DEVICE_FAMILY = 1;
 				XROS_DEPLOYMENT_TARGET = 2.5;
 			};
 			name = Release;

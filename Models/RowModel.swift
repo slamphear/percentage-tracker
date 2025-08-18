@@ -7,22 +7,29 @@
 
 import Foundation
 
-struct RowModel: Identifiable {
-    var id: UUID
-    var isInEditMode: Bool
+final class RowModel: ObservableObject, Identifiable {
+    let id: UUID
     var label: String
-    var numCorrect: Int
-    var numIncorrect: Int
-    var percentage: Decimal
-}
+    @Published var numCorrect: Int
+    @Published var numIncorrect: Int
+    @Published var percentage: Decimal
 
-extension RowModel {
     public init(label: String, numCorrect: Int, numIncorrect: Int, percentage: Decimal) {
-        self.id = UUID()
-        self.isInEditMode = false
+        self.id = .init()
         self.label = label
         self.numCorrect = numCorrect
         self.numIncorrect = numIncorrect
         self.percentage = percentage
+    }
+
+    func updatePercentage() {
+        let total = Decimal(self.numCorrect + self.numIncorrect)
+
+        if total <= 0 {
+            self.percentage = total
+            return
+        }
+
+        self.percentage = Decimal(self.numCorrect) / total
     }
 }
